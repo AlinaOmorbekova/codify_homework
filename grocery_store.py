@@ -6,10 +6,8 @@
 # которая указана на товар то нужно уведомить его что у вас не хватает 
 # денег чтобы купить, иначе сказать ему что вы получили товар.
 def grocery_store(list_of_groceries, list_of_prices):
-    list_of_groceries = ('apples', 'bread', 'ramen', 'strawberries')
-    list_of_prices = (150, 80, 240, 450)
-    print(list_of_groceries)
-    print(list_of_prices)
+    print('Список продуктов:', list_of_groceries)
+    print('Цены продуктов: ', list_of_prices)
     inpt = input('Введите название товара: ')
     for i in list_of_groceries:
         if inpt in list_of_groceries:
@@ -25,5 +23,5 @@ def grocery_store(list_of_groceries, list_of_prices):
 
 list_of_groceries = ('apples', 'bread', 'ramen', 'strawberries')
 list_of_prices = (150, 80, 240, 450) 
-grocery_store(list_of_groceries, list_of_prices)    
+grocery_store(list_of_groceries, list_of_prices)     
 
