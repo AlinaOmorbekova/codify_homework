@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercise 1. Facebook</title>
+        <link rel="stylesheet" href="{% static 'style.css' %}" />
+    </head>
+
+    <body>
+        <div class="theform"> 
+            <h2>Colorlib Contact Form</h2>
+            <h4>Contact us for custom quote</h4>
+          <fieldset>
+            <input type="text" placeholder="Your name">
+          </fieldset>
+          <fieldset>
+            <input type="email" placeholder="Your Email Address">
+          </fieldset>
+          <fieldset>
+            <input type="tel" placeholder="Your Phone Number(optional)">
+          </fieldset>
+          <fieldset>
+            <input type="url" placeholder="Your Web Site(optional)">
+          </fieldset>
+          <fieldset>
+                <textarea placeholder="Type your message here...."></textarea>
+              </fieldset>
+          <button id="btn" name="submit" type="submit">Submit</button>
+            <p id="colorlib">Designed by <a href="https://colorlib.com">Colorlib</a></p>
+          </div>
+          
+    </body>
+</html>
